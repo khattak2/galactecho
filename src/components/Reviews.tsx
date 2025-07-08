@@ -22,7 +22,9 @@ export default function Reviews() {
       <div className="space-y-6">
         {reviews.map((review, index) => (
           <div key={index} className="p-4 border-l-4 border-blue-500 bg-gray-50 rounded-lg shadow-md">
-            <p className="text-lg italic">"{review.review}"</p>
+            <p className="text-lg italic">
+              &quot;{review.review}&quot;
+            </p>
             <p className="mt-2 font-semibold text-right">- {review.name}</p>
           </div>
         ))}

@@ -11,7 +11,15 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
-                  <img src="/favicon.png" width={108}  height={145}   className="object-contain" alt="Galactecho img" />
+import Image from "next/image"; // make sure this is at the top of the file
+
+<Image
+  src="/favicon.png"
+  width={108}
+  height={145}
+  className="object-contain"
+  alt="Galactecho img"
+/>
                   <h1 className="text-[1.5rem] uppercase leading-tight text-black dark:text-white sm:text-[1.75rem] sm:leading-tight md:text-[2rem] md:leading-tight">
                   Galactecho
                 </h1>

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 const testimonials = [
   {
-    name: 'John Doe',
+    name: 'Adil Hussain',
     review: 'The service exceeded my expectations! Great communication and top-notch results.',
   },
   {
@@ -11,7 +11,7 @@ const testimonials = [
     review: 'Very professional and efficient team. Highly recommended for quality work!',
   },
   {
-    name: 'Mark Johnson',
+    name: 'Fahad Ali',
     review: 'Outstanding support and attention to detail. Will definitely work with them again!',
   },
   {
