@@ -32,7 +32,7 @@ export default function SimpleProcess() {
   if (!mounted) return null;
 
   return (
-    <section className="bg-[#0B0F19] text-white h-screen overflow-hidden">
+    <section className="bg-white text-black dark:bg-[#0B0F19] dark:text-white h-screen overflow-hidden">
       <div className="max-w-7xl mx-auto h-full flex flex-col md:flex-row items-center justify-center px-6 md:px-24 gap-8">
 
         {/* Left Image */}
@@ -65,14 +65,14 @@ export default function SimpleProcess() {
                   } group-hover:rotate-y-180 md:group-hover:rotate-y-180`}
                 >
                   {/* Front */}
-                  <div className="absolute inset-0 bg-[#121827] rounded-2xl p-6 shadow-md border border-white/10 backface-hidden flex items-center justify-center">
+                  <div className="absolute inset-0 bg-gray-100 dark:bg-[#121827] rounded-2xl p-6 shadow-md border border-black/10 dark:border-white/10 backface-hidden flex items-center justify-center">
                     <h3 className="text-lg font-semibold">
                       Step {i + 1}: {step.title}
                     </h3>
                   </div>
 
                   {/* Back */}
-                  <div className="absolute inset-0 bg-[#1c2736] rounded-2xl p-6 shadow-md border border-white/10 rotate-y-180 backface-hidden flex items-start justify-start">
+                  <div className="absolute inset-0 bg-gray-200 dark:bg-[#1c2736] rounded-2xl p-6 shadow-md border border-black/10 dark:border-white/10 rotate-y-180 backface-hidden flex items-start justify-start">
                     <p className="text-sm text-gray-300 leading-relaxed">
                       {step.description}
                     </p>
