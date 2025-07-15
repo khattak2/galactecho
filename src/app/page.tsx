@@ -10,6 +10,9 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Galactecho",
   description: "Build Your business from scratch | We help you Grwo your business",
+   icons: {
+    icon: "/icon.png", // or "/your-icon.png"
+  },
   // other metadata
 };
 
