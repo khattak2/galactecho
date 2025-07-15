@@ -14,7 +14,7 @@ const SingleService = ({ service }: { service: Service }) => {
   return (
     <div
       onClick={() => setFlipped(!flipped)}
-      className="group perspective cursor-none w-full h-56 md:h-60"
+      className="group perspective cursor-non w-full h-56 md:h-60"
     >
       <div
         className={`relative w-full h-full transition-transform duration-500 transform-style-preserve-3d ${
