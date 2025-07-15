@@ -43,7 +43,7 @@ const Hero = () => {
                   transition={{ delay: 0.5, duration: 1 }}
                   className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl"
                 >
-                  At <span className="font-bold text-primary">Galactecho</span>, we bring your vision to life with custom web development, mobile apps, and stunning designs.
+                  At <span className="font-bold text-primary">Galactecho</span>, we bring your vision to life with custom web development, mobile apps, stunning designs and Upscale your social media through social media marketing and social media management.
                 </motion.p>
 
                 {/* Glowing CTA Buttons */}
