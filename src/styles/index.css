@@ -10,6 +10,13 @@
   }
 }
 
+/* Hide system cursor in input fields */
+input,
+textarea,
+button {
+  cursor: none !important;
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
